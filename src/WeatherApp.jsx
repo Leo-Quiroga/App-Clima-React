@@ -8,7 +8,7 @@ export const WeatherApp = () => {
     const [background, setBackground] = useState('linear-gradient(135deg, #0066cc, #00a8ff)')
 
     const urlBase = 'https://api.openweathermap.org/data/2.5/weather'
-    const API_KEY = 'REEMPLAZAR-API-KEY'
+    const API_KEY = 'e93cc69ccd0b47bc18d276454ce182b4'
     const difKelvin = 273.15
 
     const getBackgroundByTemp = (temp) => {
